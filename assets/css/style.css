@@ -1,5 +1,6 @@
 .main {
     display: flex;
+    position: relative;;
 }
 
 /* navbar */
@@ -56,7 +57,7 @@
 .items {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 78px;
+    margin-bottom: 74px;
 }
 
 .item {
