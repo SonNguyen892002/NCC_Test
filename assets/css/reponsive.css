@@ -36,12 +36,30 @@
         display: none;
     }
 
+    .main {
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        padding: 10px;
+    }
+
     .introduct {
         padding: 12px 0 !important;
     }
 
     .items {
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
     }
 
